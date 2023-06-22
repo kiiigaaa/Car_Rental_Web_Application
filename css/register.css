@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(63, 59, 59);
+    color: aliceblue;
+    font-family:'Noto Sans', sans-serif;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    background-image: url('../img/register-car.webp');
+    width: 100%;
+    height: 700px;
+
+}
+
+.container{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background: rgb(0, 0, 0,0.7);
+    left: 350px;
+    top: 150px;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.container .title{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+span {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding-left:30px ;
+}
+
+
+.text{
+    float: left;
+    font-size: 15px;
+    position: relative;
+    left: 100px;
+}
+
+.container .btn{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    background: #FFD700;
+    border: none;
+    border-radius: 6px 6px 6px 6px;
+    transition: 0.2s ease-in-out;
+    left: 330px;
+}
+
+.btn:hover{
+	border: 2px solid #00CED1;
+    background-color: black;
+    color: #FFFAF0;
+}
+
+.close{
+    font-size: 50px;
+    font-weight: 600;
+    display: inline-block;
+    transform: rotate(45deg);
+    color: antiquewhite;
+    position: relative;
+    cursor: pointer;
+    bottom: 370px;
+    right: 20px;
+    float: right;
+}
+
+.close:hover{
+    color: #FFD700;
+}
+
+.container input{
+    height: 23px;
+    border-radius: 3px 3px 3px 3px;
+    border: 2px solid #FFD700;
+    width: 300px;
+    float: right;
+    position: relative;
+    right: 100px;
+}
+
+
+
+

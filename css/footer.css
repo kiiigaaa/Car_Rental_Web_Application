@@ -1,0 +1,85 @@
+footer{
+	position: relative	;
+	bottom: 0px;
+	width: 100%;
+	background: black;
+	color: white;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+
+}
+
+.main-content{
+	display: flex;
+}
+.main-content .box{
+	flex-basis:50% ;
+	padding: 10px 20px;
+}
+.box h2{
+	font-size: 1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	transition:0.3s;
+}
+.box h2:hover{
+	color: #ffa722;
+}
+.center .content p{
+	transition:0.3s;
+
+}
+.center .content p:hover{
+	color: #ffa722;
+}
+.box .content{
+	margin: 20px 0 0 0;
+}
+
+.left .content p{
+	text-align: justify;
+}
+.left .content.socialmedia{
+	margin: 20px 0 0 0;
+}
+.left .content.socialmedia a{
+	padding: 0 2px;
+
+}
+.left .content.socialmedia a span{
+	height:40px ;
+	width: 40px;
+	background: #ffa722;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+	transition: 0.3s ;
+}
+.left .content .socialmedia a span:hover{
+	background: #ffa722;
+}
+#em{
+	width: 100%;
+	padding: 10px 5px;
+	margin: 5px 0px;
+	border: 0;
+	border-bottom: 1px solid #ffa722 ;
+	outline: none;
+	background: transparent;
+	color: white;
+}
+.right .content .btn:{
+	color:#ffa722 ;
+	color: black;
+}
+
+#send{
+	color:black;
+}
+input, textarea {
+color: black;
+}
+.right .content .btn:hover{
+	background: #ffa722;
+}

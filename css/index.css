@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #040404;
+    height: 2800px;
+    
+}
+
+.navsection{
+    min-height: 100px;
+}
+
+ header{
+      height: 100px;
+      background:#040404;
+      width: 100%;
+      z-index: 12;
+      position: fixed;
+      
+  }
+
+.logo img{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+  }
+
+  .wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+
+}
+nav a {
+    text-decoration:none; 
+    font-size:14px;
+    color:#fff;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    margin: 0 10px; 
+    padding: 7px 7px;
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+    
+}
+nav a:hover{
+    background: #ffa722;
+
+}
+
+.home{
+    height: 1000px;
+    width: 100%;
+    
+}
+/*slider*/
+.slider img{
+    width: 1519px;
+    height: 550px;
+
+}
+.slider{
+    overflow: hidden; 
+ }
+
+ .slider figure{
+     position: relative;
+     width: 600%;
+     margin: 0;
+     left: 0;
+     animation: 20s image_slider infinite;
+ }
+
+ .slider figure img{
+     float: left;
+ }
+
+ @keyframes image_slider{
+    0%{
+        left: 0;
+    }
+
+      20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+
+    95%{
+        left: -300%;
+    }
+
+    100%{
+        left: -400%;
+    }
+
+  }
+
+.abt-img{
+    float: right;
+}
+
+.about-dtls{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #fff;
+    text-align: left;
+    position: relative;
+    letter-spacing: 2px;
+    padding: 40px;
+    
+    
+}
+
+
+
+.about-1{
+    margin-top: 60px;
+    line-height: 20px;
+    color: #FFD700;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+}
+
+.about-2{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.about-3{
+    color: #fff;
+    padding-top: 60px;
+    font-size: 15px;
+    letter-spacing: normal;
+    word-spacing: 3px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.about-btn{
+    height: 50px;
+    width: 150px;
+    background: #FFD700;
+    border: none;
+    
+    border-radius: 6px 6px 6px 6px;
+    transition: 0.2s ease-in-out;
+}
+
+.about-btn:hover{
+    border: 2px solid #00CED1;
+    background-color: black;
+    color: #FFFAF0;
+}
+
+.services{
+    
+    letter-spacing: 2px;
+    padding: 40px;
+    border: 2px 0px 0px 0px;
+    border-color: #fff;
+}
+
+.srvs-imgs img{
+    width: 260px;
+    height: 230px;
+    float: right;
+    padding: 5px;
+    position: relative;
+    top: 80px;
+    right: 320px;
+   
+ 
+ }
+
+.srvs-1 {
+    text-align: center;
+    float: left;
+    color: #fff;
+    padding-top: 60px;
+    font-size: 15px;
+    letter-spacing: normal;
+    word-spacing: 3px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: relative;
+    top: 50px;
+    left: 350px;
+
+}
+
+.sd-img{
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.overlay{
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #333232;
+}
+
+.sd-img :hover .overlay{
+    opacity: 1;
+}
+
+.sd-img:hover img{
+    opacity: 0.5;
+}
+
+.srvs-imgs h3{
+    font-family: 'Overpass', sans-serif;
+}
+
+.txt1{
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 250px;
+  left: 950px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.txt2{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    text-align: center;
+    text-shadow: 2px 2px black; 
+}
+
+.txt3{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    text-align: center;
+    text-shadow: 2px 2px black; 
+}
+
+
+
+.srvs-btn{
+
+    height: 50px;
+    width: 150px;
+    background: #FFD700;
+    border: none;
+    border-radius: 6px 6px 6px 6px;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    top: 410px;
+    right: 100px;
+}
+
+.srvs-btn:hover{
+    border: 2px solid #00CED1;
+    background-color: black;
+    color: #FFFAF0;
+}
+
+.vehicle-dtls{
+    position: relative;
+    top: 420px;
+    padding-left: 20px;
+    width: 95%;
+    height: 400px;
+    background-color: rgb(51,50,50,0.5);
+    white-space: nowrap;
+    background-position: center;
+    left: 20px;
+    
+    
+}
+
+.v1{
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top:20px ;
+    font-size: 40px;
+}
+
+.vright1{
+    position: absolute;
+    transition: 0.5s ease;
+    top: 100px;
+    float: right;
+    left: 500px;
+
+}
+
+.vright1 img{
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+    
+}
+
+.vright1:hover .overlay{
+    opacity: 1;
+}
+
+.vright1 h3{
+    font-family:'Poppins', sans-serif;
+}
+
+.vtxt1{
+    color: #fff;
+    position: absolute;
+    bottom: 120px;
+    left: 80px;
+}
+
+.vtxt2{
+    color: #fff;
+    position: absolute;
+    bottom: 120px;
+    left: 400px;
+}
+
+.vtxt3{
+    color: #fff;
+    position: absolute;
+    bottom: 120px;
+    left: 750px;
+}
+
+.vright1:hover img{
+    opacity: 0.5;
+}
+
+.v2{
+    position: relative;
+    top: 80px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.car-btn{
+    height: 50px;
+    width: 150px;
+    background: #FFD700;
+    border: none;
+    border-radius: 6px 6px 6px 6px;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    top: 110px;
+}
+
+.car-btn:hover{
+    border: 2px solid #00CED1;
+    background-color: black;
+    color: #FFFAF0;
+}
+
+.faq{
+
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 450px;
+}
+
+.faq1{
+    color: #fff;
+    text-align: center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+}
+
+.faq-btn{
+    height: 50px;
+    width: 150px;
+    background: #FFD700;
+    border: none;
+    border-radius: 6px 6px 6px 6px;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    top: 30px;
+    left: 700px;
+}
+
+.faq-btn:hover{
+    border: 2px solid #00CED1;
+    background-color: black;
+    color: #FFFAF0;
+}
+
+/* footer style starts */
+
+
+
+
+
+
+
+
+
+
+
+
+
